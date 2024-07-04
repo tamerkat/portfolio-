@@ -1,0 +1,76 @@
+.contact{
+    background-color: #f0f0f0;
+}
+.text-box{
+    margin-left: 20px;
+}
+.info{
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    margin: 20px 0;  
+}
+.info::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(184, 255, 92);
+}
+.adress{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+label{
+    display: block;
+    padding: 10px;
+}
+.contact-input{
+    border-radius: 5px;
+    width: 90%;
+    height: 50px;
+    /* padding-left: 15px; */
+    border: none;
+}
+#bitch{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.check{
+    width: 20px;
+    height: 20px;
+    display: inline;
+}
+.like{
+    display: inline;
+}
+.send{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    display: inline;
+    border-radius: 5px;
+    right: 2%;
+    border: 2px solid black;
+    background-color: rgb(184, 255, 92);
+}
+.send:hover{
+    background-color: black;
+    color: rgb(184, 255, 92);
+    border: 3px solid rgb(184, 255, 92);
+    border-radius: 5px;
+}
+
+
+@media (max-width: 576px) {
+    .text {
+        width: 100%;
+    }
+    .form{
+        margin: 0 auto;
+        width: 100%;
+    }
+}
